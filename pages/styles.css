@@ -3,16 +3,22 @@ body {
     background: url('../images/fogtreebackground.jpg');
     background-repeat: no-repeat;
     background-size: 100%;
-    background-position: center;
 }
 /* HEADER */
 header {
     background-color: rgb(80, 77, 77);
     padding: 20px;
     height: 100px;
-    color: white;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
+}
+header h1 {
+    color: white;
+}
+header a {
+    color: white;
+    font: optima; 
+    text-transform: uppercase;
+    text-decoration: none;
 }
 nav ul {
     margin: 0;
@@ -24,9 +30,8 @@ nav li {
     display: inline-block;
     margin-right: 20px;
 }
-nav li:hover {
-    background: white;
-    border-radius: 40px;
+li {
+    color: black;
 }
 a {
     text-decoration: none;
@@ -35,11 +40,18 @@ a:hover {
     text-decoration: underline;
 }
 /* BUTTONS */
-button {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: white;
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 15px;
+    text-align: center;
+    text-decoration: none;
     background: black;
+    color: white;
     border-radius: 50%;
+}
+.fa:hover {
+    opacity: 0.7;
 }
 /* FEATURES */
 .features h4 {
