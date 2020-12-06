@@ -19,22 +19,37 @@
                 </ul>
             </nav>
             <h2>Discography</h2>
-        <button>Instagram</button>
-        <button>Spotify</button>
-        <button>YouTube</button>
-        <button>Apple Music</button>
+            <div align="right"> 
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+                <a href="#" class="fa fa-spotify"></a>
+                <a href="#" class="fa fa-instagram"></a>
+                <a href="#" class="fa fa-youtube"></a>
+                <a href="#" class="fa fa-apple music"></a>
+            </div>
         <header>
         <section class="features">
             <h2>Honey B</h2>
             <h5>The Latest Single</h5>
-             <figure>
-                 <img src="images/honeyb.jpg" alt="Honey B">
-             </figure>
+            <figure>
+                <img src="../images/honeyb.jpg" alt="Honey B">
+            </figure>
         </section>
-            
-        <section>
-            Footer
-        </section>
+
+<!-- RESPONSIVE DESIGN - FEATURES -->
+        <style>
+            figure {
+                flex-wrap: wrap;
+            }
+        </style>
+
+        @media screen and (max-width: 636px) {
+            .features {
+                display: block;
+            }
+        }
+        <footer>
+            Sign up for our newsletter here to be notified of our upcoming shows, new merch, and more
+        </footer>
 
     </body>
 </html>

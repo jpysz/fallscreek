@@ -4,21 +4,27 @@ body {
     background-repeat: no-repeat;
     background-size: 100%;
 }
+/* RESPONSIVE RULES - BACKGROUND */
+@media screen and (max-width: 400px) {
+    body .mobile {
+        background-size: 100%;
+    }
+}
 /* HEADER */
 header {
-    background-color: rgb(80, 77, 77);
     padding: 20px;
     height: 100px;
     text-align: center;
 }
 header h1 {
-    color: white;
+    color: black;
+    text-transform: bold;
 }
 header a {
-    color: white;
-    font: optima; 
+    color: black;
     text-transform: uppercase;
     text-decoration: none;
+    text-transform: bold;
 }
 nav ul {
     margin: 0;
@@ -36,23 +42,31 @@ li {
 a {
     text-decoration: none;
 }
-a:hover {
-    text-decoration: underline;
+/* RESPONSIVE RULES - HEADER */
+@media screen and (max-width: 636px) {
+    header .mobile {
+        display: inline-block;
+    }
+
+    header .desktop {
+        display: none;
+    }
 }
 /* BUTTONS */
 .fa {
     padding: 10px;
     font-size: 30px;
     width: 15px;
-    text-align: center;
     text-decoration: none;
     background: black;
     color: white;
     border-radius: 50%;
+    text-align: right;
 }
 .fa:hover {
     opacity: 0.7;
 }
+
 /* FEATURES */
 .features h4 {
     text-align: center;
