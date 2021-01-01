@@ -45,7 +45,30 @@
         </section>
 
         <footer>
-            Sign up for our newsletter here to be notified of our upcoming shows, new merch, and more
+            <a class="trigger_popup_fricc">Sign up for our newsletter to get notified of upcoming shows, new merch, and more</a>
+            <div class="hover_bkgr_fricc">
+                <span class="helper"></span>
+                <div>
+                    <div class="popupCLoseButton">&times;</div>
+                    <p>The newsletter is currently under construction.  Check back soon!</p>
+                </div>
+            </div>
+            <script>
+                $(window).on('load', function () {
+                    $(".trigger_popup_fricc").click(function(){
+                        $('.hover_bkgr_fricc').show();
+                        alert("Under Construction");
+                    });
+                                $('.hover_bkgr_fricc').click(function(){
+                                    $('.hover_bkgr_fricc').hide();
+                                    alert("Under Construction");
+                                });
+                                $('.popupCloseButton').click(function(){
+                                    $('.hover_bkgr_fricc').hide();
+                                    alert("Under Construction");
+                                });
+                            });
+            </script>
         </footer>
 
     </body>
