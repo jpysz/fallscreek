@@ -83,22 +83,27 @@ a {
     }
 }
 
-/* FEATURES */
+/* PHOTOS/ALBUMS */
 .features h4 {
     text-align: center;
     text-transform: uppercase;
 }
 .features {
-    padding: 30px;
+    padding: 3x;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
     text-transform: uppercase;
+    align-content: space-between;
     text-align: center;
+    justify-content: space-evenly;
 }
 .features figure img {
-    margin: auto;
+    margin: 7px;
     border: 1px solid black;
     box-shadow: black 0px 0px 10px;
+    width: 350px;
+    height: 350px;
 }
 
 /* FOOTER */
