@@ -84,13 +84,13 @@ a {
     }
 }
 
-/* PHOTOS/ALBUMS */
+/* DISCOGRAPHY */
 .features h4 {
     text-align: center;
     text-transform: uppercase;
 }
 .features {
-    padding: 3x;
+    padding: 2px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -100,7 +100,7 @@ a {
     justify-content: space-evenly;
 }
 .features figure img {
-    margin: 7px;
+    margin: 2px;
     border: 1px solid black;
     box-shadow: black 0px 0px 10px;
     width: 350px;
