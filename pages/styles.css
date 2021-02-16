@@ -13,19 +13,25 @@ body {
 }
 /* HEADER */
 header {
-    padding: 20px;
+    padding: 100px;
     height: 100px;
     text-align: center;
+    margin-top: -100px;
 }
 header h1 {
     color: black;
     text-transform: bold;
+    font-size: 50px;
 }
 header a {
     color: black;
     text-transform: uppercase;
     text-decoration: none;
     text-transform: bold;
+}
+header:hover {
+    font-variant: underline;
+
 }
 nav ul {
     margin: 0;
