@@ -95,6 +95,18 @@ a {
     }
 }
 
+/* BIO */
+.bioimagedetails {
+    float: left;
+    width: 550px;
+    height: 425px;
+    margin: 5px;
+    padding: 10px;
+}
+.biocontainer p {
+    font-size: 30px;
+}
+
 /* DISCOGRAPHY */
 .features h4 {
     text-align: center;
