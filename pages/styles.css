@@ -88,22 +88,13 @@ a {
     flex-flow: row wrap;
     justify-content: flex-end;
 }
-@media all and (max-width: 800px) {
-    .container {
-        justify-content: space-around;
-    }
-}
-@media all and (max-width: 500px) {
-    .container {
-        flex-direction: row;
-    }
-}
+
 
 /* BIO */
 .bioimagedetails {
     float: left;
     width: 550px;
-    height: 425px;
+    height: auto;
     margin: 5px;
     padding: 10px;
 }
@@ -132,6 +123,30 @@ a {
     box-shadow: black 0px 0px 10px;
     width: 350px;
     height: 350px;
+}
+
+@media all and (max-width: 1000px) {
+    .container {
+        justify-content: space-around;
+    }
+    .bioimagedetails {
+        width: 400px;
+        height: auto;
+        vertical-align: middle;
+    }
+@media all and (max-width: 500px) {
+    .container {
+        flex-direction: row;
+    }
+    .bioimagedetails {
+        width: 300px;
+        height: auto;
+        vertical-align: middle;
+    }
+    .biocontainer p {
+        font-size: 20px;
+        width: 400px;
+    }
 }
 
 /* FOOTER */
